@@ -1,0 +1,159 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOGEX 0, 0, 221, 217
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "梦境服装展V2内部开发版  --  Nov30th.Com"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,160,31,50,14
+    CONTROL         "List1",IDC_LISTDATA,"SysListView32",LVS_REPORT | NOT 
+                    WS_VISIBLE | WS_BORDER | WS_TABSTOP,200,185,6,9
+    EDITTEXT        IDC_SPECIFICDATA,205,166,9,13,ES_MULTILINE | ES_READONLY | 
+                    NOT WS_VISIBLE | WS_VSCROLL
+    PUSHBUTTON      "目标",IDC_TARGET,22,22,50,14
+    PUSHBUTTON      "暂停",IDC_PAUSE,128,55,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "关闭",IDC_CLOSE,86,22,50,14
+    PUSHBUTTON      "清除",IDC_CLEAR,69,56,50,14,NOT WS_VISIBLE
+    CONTROL         "关闭发送",IDC_CLOSESEND,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_TABSTOP,109,200,48,10
+    CONTROL         "关闭接受",IDC_CLOSERECV,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_TABSTOP,43,200,48,10
+    CONTROL         "总在最前",IDC_TOPMOST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,161,14,48,10
+    GROUPBOX        "设定梦境游戏浏览器进程",IDC_STATIC,7,7,140,39
+    GROUPBOX        "衣服选择",IDC_STATIC,7,54,207,141
+    LTEXT           "鞋子",IDC_STATIC,16,77,17,8
+    LTEXT           "上衣",IDC_STATIC,16,115,17,8
+    LTEXT           "套装",IDC_STATIC,16,172,17,8
+    LTEXT           "裤裙",IDC_STATIC,16,134,17,8
+    LTEXT           "帽子",IDC_STATIC,16,153,17,8
+    LTEXT           "发型",IDC_STATIC,16,96,17,8
+    EDITTEXT        IDC_EDITSS,43,74,32,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSY,43,93,32,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITKQ,43,112,32,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITXZ,43,131,32,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITMZ,43,150,32,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITTZ,43,169,32,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITINFO,90,115,111,68,ES_MULTILINE | WS_VSCROLL
+    LTEXT           "整体人物",IDC_STATIC,90,77,33,8
+    EDITTEXT        IDC_EDITRW,126,74,40,12,ES_AUTOHSCROLL
+    LTEXT           "非1为隐身",IDC_STATIC,171,76,37,8
+    LTEXT           "物品道具",IDC_STATIC,90,96,33,8
+    EDITTEXT        IDC_EDITWP,126,93,40,12,ES_AUTOHSCROLL
+END
+
+IDD_ENUMDIALOG DIALOG DISCARDABLE  0, 0, 151, 158
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择目标程序"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "打开",IDOK,38,140,50,14
+    CONTROL         "List1",IDC_PROLIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,3,5,144,131
+    PUSHBUTTON      "取消",IDCANCEL,95,140,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_ENUMDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "shell32.dll#274.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
